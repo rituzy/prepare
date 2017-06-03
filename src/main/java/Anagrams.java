@@ -3,6 +3,7 @@ import java.util.*;
 /**
  * Created by user on 11.04.2017.
  */
+// look at GroupAnagrams.java
 public class Anagrams {
     final Map<String, List<String>> lookup = new HashMap<String, List<String>>();
 
