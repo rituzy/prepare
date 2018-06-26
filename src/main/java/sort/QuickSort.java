@@ -8,11 +8,7 @@ import java.util.List;
  * Created by user on 02.04.2017.
  */
 public class QuickSort extends CommonSort{
-    public void swap(int ind1, int ind2, int[] array){
-        int tmp = array[ind1];
-        array[ind1] = array[ind2];
-        array[ind2] = tmp;
-    }
+
 
     public int[] sortOptimal(int[] numbers){
         ArrayList<Integer> source = new ArrayList<Integer>();

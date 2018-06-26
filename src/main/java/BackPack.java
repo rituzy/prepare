@@ -30,12 +30,12 @@ public class BackPack {
 
         int[][] dp = new int[n + 1][W + 1];
         // border case when there is no items(no things to put in the backpack)
-        for (int row = 0; row < n; row++){
+        for (int row = 0; row <= n; row++){
             dp[row][0] = 0;
         }
 
         // border case when capacity is 0(backpack is damaged for example)
-        for (int col = 0; col < W; col++){
+        for (int col = 0; col <= W; col++){
             dp[0][col] = 0;
         }
 
